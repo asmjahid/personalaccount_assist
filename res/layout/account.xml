@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+<LinearLayout 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content" 
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/textAccountId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" 
+        android:text="" />
+    <TextView
+        android:id="@+id/textBank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-" />
+    <TextView
+        android:id="@+id/textHolder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+    
+   <LinearLayout
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:gravity="right" 
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/textBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="balance" />
+    </LinearLayout>
+ </LinearLayout>
+ <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:height="2dip"
+        android:text="" />
+ </LinearLayout>
+ 
+
+ 

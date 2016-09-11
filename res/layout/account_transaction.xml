@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<TableLayout
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:stretchColumns="2">
+   <TableRow>
+    <TextView
+        android:id="@+id/textTransId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" 
+        android:text="" />
+    <TextView
+        android:id="@+id/textTransDate"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="transdate" />
+    <TextView
+        android:id="@+id/textTransDetails"
+        android:scrollHorizontally="false"
+        android:singleLine="false"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Detaifdsfsdf dsafsdfsdf sdf fdsaf safdsafdsls" />
+    
+     <TextView
+        android:id="@+id/textTransType"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Type" />
+ 
+    <TextView
+        android:id="@+id/textAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="70dp"
+        android:gravity="right"
+        android:text="" />
+  </TableRow>
+ </TableLayout>
+ <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:height="2dip"
+        android:text="" />
+ </LinearLayout>
+ 
+
+ 

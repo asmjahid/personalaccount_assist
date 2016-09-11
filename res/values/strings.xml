@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Account Assistance</string>
+    <string name="accountsprompt">Select Account</string>
+    <string name="_">-</string>
+    <string name="from_date_">From Date :</string>
+    <string name="delete">Delete</string>
+    <string name="welcome">Welcome</string>
+    <string name="developed_by">Developed By</string>
+
+</resources>

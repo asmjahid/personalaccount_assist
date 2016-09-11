@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textTransId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" 
+        android:text="" />
+<TableLayout
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:stretchColumns="1">
+   <TableRow>
+       <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/common.heading"
+        android:text="Account No." />
+    <TextView
+        android:id="@+id/textAcno"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="acno" />
+    </TableRow>
+   <TableRow>
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/common.heading"
+        android:text="Trans Date" />       
+    <TextView
+        android:id="@+id/textTransDate"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="transdate" />
+  </TableRow>
+  
+  <TableRow>
+         <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/common.heading"
+        android:text="Trans Details" />       
+         
+    <TextView
+        android:id="@+id/textTransDetails"
+        android:layout_marginLeft="5dp"
+        android:scrollHorizontally="false"
+        android:singleLine="false"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Details" />
+  </TableRow>
+  <TableRow>
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/common.heading" 
+        android:text="Trans Type" />       
+    
+     <TextView
+        android:id="@+id/textTransType"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type" />
+   </TableRow>
+   
+       
+   <TableRow>
+   <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/common.heading"
+        android:text="Trans Amount" />       
+    <TextView
+        android:id="@+id/textTransAmount"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="amount" />
+  </TableRow>
+  
+  <TableRow>
+   <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/common.heading"
+        android:text="Remarks " />       
+    <TextView
+        android:id="@+id/textTransRemarks"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="remarks" />
+  </TableRow>
+  
+ </TableLayout>
+ 
+ </LinearLayout>
+ 
+
+ 

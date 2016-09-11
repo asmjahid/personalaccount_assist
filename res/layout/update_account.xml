@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:orientation="horizontal">
+
+    <Button android:id="@+id/buttonUpdate" android:text="Update" 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:onClick="updateAccount">
+    </Button>        
+    
+    <Button android:id="@+id/buttonDelete" android:text="Delete" 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:onClick="deleteAccount">
+    </Button>
+     <Button android:id="@+id/buttonListTrans" android:text="Transactions" 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:onClick="listAccountTransactions">
+    </Button>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account Number" />
+
+    <EditText
+        android:id="@+id/editAcno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <requestFocus />
+    </EditText>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customer Number" />
+
+    <EditText
+        android:id="@+id/editCno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </EditText>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account Holder(s)" />
+    
+    <EditText
+        android:id="@+id/editHolders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </EditText>
+    
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bank Name " />
+
+    <EditText
+        android:id="@+id/editBankName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </EditText>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Branch Name " />
+
+    <EditText
+        android:id="@+id/editBranchName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </EditText>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Branch Address " />
+    
+    <EditText
+        android:id="@+id/editAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IFSC" />
+        
+    <EditText
+        android:id="@+id/editIFSC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </EditText>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MICR" />
+
+    <EditText
+        android:id="@+id/editMICR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </EditText>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Balance" />
+
+    <EditText
+        android:id="@+id/editBalance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remarks " />
+
+    <EditText
+        android:id="@+id/editRemarks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </EditText>
+ 
+</LinearLayout>
+</ScrollView>

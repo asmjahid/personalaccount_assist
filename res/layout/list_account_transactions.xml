@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <TextView android:id="@+id/textTitle"
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        style="@style/heading"         
+        android:text="Recent Transactions"></TextView>
+   <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/heading"
+        android:stretchColumns="1">
+
+    <TableRow>        
+       <TextView 
+        android:textColor="#ff0000"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"  
+        android:gravity="center"  
+        android:text="Date"></TextView>
+        
+        <TextView 
+        android:textColor="#ff0000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"  
+        android:gravity="center"  
+        android:text="Details"></TextView>
+        
+        <TextView 
+        android:textColor="#ff0000"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"  
+        android:gravity="center"  
+        android:text="Type"></TextView>
+        
+       <TextView 
+        android:textColor="#ff0000"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"  
+        android:gravity="center"  
+        android:text="Amount"></TextView>
+    </TableRow>
+  </TableLayout>
+      
+  <ListView
+        android:id="@+id/listTransactions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+  <TextView 
+        android:id="@+id/textError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        style="@style/error"
+        android:text="Sorry! No Transaction Found!" />
+        
+</LinearLayout>

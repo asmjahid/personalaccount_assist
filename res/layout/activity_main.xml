@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/cell"
+        android:clickable="false"
+        android:enabled="false"
+        android:focusable="false"
+        android:gravity="center"
+        android:scrollHorizontally="false"
+        android:text="@string/welcome"
+        android:textAllCaps="false"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="To"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:text="Personal Account Assistance"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/ListAccounts"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="ListAccounts"
+        android:padding="20dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:text="Enter" />
+
+</LinearLayout>
